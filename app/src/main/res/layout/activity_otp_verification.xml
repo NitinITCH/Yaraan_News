@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_headimage"
+            android:scaleType="fitXY"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#2b4c87"
+                android:layout_marginTop="16dp"
+                android:textSize="26dp"
+                android:text="یو بریښلیک د تایید کوډ سره لیږل شوی"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+
+            android:layout_marginTop="36dp"
+            android:weightSum="4">
+            <EditText
+                android:inputType="number"
+                android:textAlignment="center"
+                android:maxLength="1"
+                android:id="@+id/edtOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                android:layout_weight="0.3"/>
+            <EditText
+                android:textAlignment="center"
+                android:maxLength="1"
+                android:id="@+id/edtTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                android:inputType="number"
+                android:layout_weight="0.3"/>
+            <EditText
+                android:textAlignment="center"
+                android:maxLength="1"
+                android:id="@+id/edtThree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                android:inputType="number"
+                android:layout_weight="0.3"/>
+            <EditText
+                android:textAlignment="center"
+                android:maxLength="1"
+                android:id="@+id/edtFour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                android:imeActionLabel="done"
+                android:inputType="number"
+                android:layout_weight="0.3"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <TextView
+                android:id="@+id/resend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="لم أحصل عليه؟"
+                android:textColor="#2b4c87"
+                />
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="إعادة إرسال"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/btnOtp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textColor="#fff"
+            android:background="#2b4c87"/>
+
+
+
+    </LinearLayout>
+</RelativeLayout>

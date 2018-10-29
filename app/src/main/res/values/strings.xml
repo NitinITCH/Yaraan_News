@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Yaraan</string>
+    <string name="facebook_app_id">189647081641545</string>
+    <string name="fb_login_protocol_scheme">fb189647081641545</string>
+    <string name="cancel_login">Cancled</string>
+    <string name="error_login">Error! could not login</string>
+    <string name="logout">Logged out</string>
+    <string name="title_activity_demo_landing">DemoLanding</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_landing">LandingAct</string>
+    <string name="add_banner_footer">ca-app-pub-3934986051148024/2279093538</string>
+    <string name="add_banner_artical">ca-app-pub-3934986051148024/5352264846</string>
+    <string name="add_banner_intertital">ca-app-pub-3934986051148024/8637452478</string>
+    
+</resources>

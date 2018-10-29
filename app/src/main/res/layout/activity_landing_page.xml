@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <!--<LinearLayout-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+        <!--<LinearLayout-->
+            <!--android:id="@+id/mainToolbar"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="?attr/actionBarSize">-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+                <!--<ImageView-->
+
+                    <!--android:src="@drawable/ic_appname"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content" />-->
+                <!--<TextView-->
+                    <!--android:gravity="center"-->
+                    <!--android:text="Home"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content" />-->
+            <!--</LinearLayout>-->
+
+        <!--</LinearLayout>-->
+
+        <!--<FrameLayout-->
+            <!--android:id="@+id/allFrag"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+
+        <!--</FrameLayout>-->
+
+    <!--</LinearLayout>-->
+
+    <!--<RelativeLayout-->
+        <!--android:layout_below="@+id/allFrag"-->
+        <!--android:id="@+id/relate"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--tools:ignore="NotSibling">-->
+
+        <!--<LinearLayout-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:id="@+id/navigation_bottom"-->
+            <!--android:weightSum="3"-->
+            <!--android:background="#000000"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_alignParentEnd="true">-->
+
+
+            <!--<LinearLayout-->
+                <!--android:orientation="horizontal"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<ImageView-->
+                    <!--android:src="@drawable/ic_homeicon"-->
+                    <!--android:id="@+id/btnHome"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:textColor="@color/colorWhite"-->
+                    <!--android:layout_width="30dp"-->
+                    <!--android:layout_height="30dp" />-->
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/btnCategories"-->
+                    <!--android:src="@drawable/ic_categoryicon"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:layout_width="30dp"-->
+                    <!--android:layout_height="30dp" />-->
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/btnSearch"-->
+                    <!--android:src="@drawable/ic_searchicon"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:layout_width="30dp"-->
+                    <!--android:layout_height="30dp" />-->
+
+                <!--<ImageView-->
+                    <!--android:src="@drawable/ic_notification"-->
+                    <!--android:id="@+id/btnNotifications"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:layout_width="30dp"-->
+                    <!--android:layout_height="30dp"     />-->
+
+           <!---->
+            <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+    <!--</RelativeLayout>-->
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorGrey">#f1f1f1</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorHead">#2b4c87</color>
+    <color name="colorText">#b4b3b3</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorRed">#ff0000</color>
+    <color name="main_tab">#203966</color>
+    <color name="detail_main">#203966</color>
+    <color name="toobar_color">#203966</color>
+    <color name="linear_layout">#203966</color>
+    <color name="nav_color">#203966</color>
+    <color name="notifcation_color">#203966</color>
+    <color name="profile_color">#203966</color>
+    <color name="profile_appbar">#203966</color>
+    <color name="more_toolbar">#203966</color>
+    <color name="appbar_lay_setting">#203966</color>
+    <color name="color_setting">#203966</color>
+    <color name="switch_on">#26dd09</color>
+    <color name="switch_off">#a7a9a7</color>
+</resources>

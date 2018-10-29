@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single"
+        >
+        <item
+            app:itemTextColor="@color/colorWhite"
+            android:id="@+id/first"
+
+            android:title="سیاست" />
+        <item
+            app:itemTextColor="@color/colorWhite"
+            android:id="@+id/second"
+
+            android:title="لوبې" />
+        <item
+            app:itemTextColor="@color/colorWhite"
+            android:id="@+id/third"
+
+            android:title="ژوند بڼ" />
+        <item
+            app:itemTextColor="@color/colorWhite"
+            android:id="@+id/four"
+
+            android:title="ژوند بڼ" />
+        <item android:id="@+id/fifth"
+            app:itemTextColor="@color/colorWhite"
+            android:title="بریا او پرمخت">
+
+
+
+        </item>
+    </group>
+
+</menu>

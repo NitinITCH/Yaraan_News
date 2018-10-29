@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.app.yaraan.activities.LandingAct"
+    tools:showIn="@layout/app_bar_landing"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_weight="1"
+        android:id="@+id/allFrag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/add_banner_footer">
+    </com.google.android.gms.ads.AdView>
+
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:id="@+id/navigation_bottom"
+            android:weightSum="3"
+            android:background="#000000"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@drawable/ic_homeicon"
+                    android:id="@+id/btnHome"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorWhite"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+
+                <ImageView
+                    android:id="@+id/btnCategories"
+                    android:src="@drawable/ic_categoryicon"
+                    android:layout_weight="1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+
+                <ImageView
+                    android:id="@+id/btnSearch"
+                    android:src="@drawable/ic_searchicon"
+                    android:layout_weight="1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:id="@+id/lnrNotification"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/txtNotification"
+                    android:background="@drawable/bagesshape"
+                    android:textAlignment="textStart"
+                    android:text="0"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="right|end|top"
+                    tools:ignore="RtlCompat" />
+                <ImageView
+                    android:src="@drawable/ic_notification"
+                    android:id="@+id/btnNotifications"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"     />
+
+                  </FrameLayout>
+                </LinearLayout>
+                <ImageView
+                    android:src="@drawable/ic_navmenu"
+                    android:id="@+id/btnProfile"
+                     android:layout_weight="1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>

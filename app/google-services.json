@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "747275104633",
+    "firebase_url": "https://yarran-198911.firebaseio.com",
+    "project_id": "yarran-198911",
+    "storage_bucket": "yarran-198911.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747275104633:android:72e1641a1287056c",
+        "android_client_info": {
+          "package_name": "com.app.yaraan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "747275104633-4dsbufvafu1d519fmino4mspg4fpvaho.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.yaraan",
+            "certificate_hash": "56e12a782a3d0638b56bdde14ccb3f361fcbc630"
+          }
+        },
+        {
+          "client_id": "747275104633-hf5jtc5k20lsrf4tcq5m6tvhq0eqko16.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdCoF_gm2IrZwUkf6m81eXSSJUarupf3Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "747275104633-hf5jtc5k20lsrf4tcq5m6tvhq0eqko16.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

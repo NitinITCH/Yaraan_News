@@ -1,0 +1,273 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.app.yaraan.fragments.SettingFrag">
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:background="@color/color_setting"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <android.support.v7.widget.Toolbar
+
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:weightSum="3"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/imgCloseS"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_detail_close"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <com.app.yaraan.fontsetting.textview.TextViewChangSemiBold
+                    android:textAlignment="center"
+                    android:layout_weight="1"
+                    android:textSize="19sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+                    android:text="ترتیب"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_appname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </android.support.v7.widget.Toolbar>
+
+
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="9">
+
+        <LinearLayout
+            android:background="#f1f1f1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="bottom">
+
+            <com.app.yaraan.fontsetting.textview.TextViewChangeMedium
+                android:layout_marginRight="9dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:gravity="bottom"
+                android:text="اکاونټ"
+                android:textSize="19sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Switch
+                android:checked="true"
+                android:id="@+id/switch_nofification"
+                android:gravity="start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2" />
+            <com.app.yaraan.fontsetting.textview.TextViewChangeMedium
+                android:layout_marginRight="9dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1.8"
+                android:text="د افلاین لوست لپاره"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <Switch
+                android:checked="true"
+                android:keepScreenOn="true"
+                android:id="@+id/switch_offline"
+                android:gravity="start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2" />
+            <com.app.yaraan.fontsetting.textview.TextViewChangeMedium
+                android:layout_marginRight="9dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1.8"
+                android:text="یادونې"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnrAboutus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <ImageView
+                android:rotation="180"
+                android:layout_weight="0.2"
+                android:src="@drawable/ic_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </ImageView>
+            <com.app.yaraan.fontsetting.textview.TextViewChangeMedium
+                android:layout_marginRight="9dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1.8"
+                android:text="زموږ په اړه"
+                android:textSize="18sp" />
+
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnrPrivacy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <ImageView
+                android:rotation="180"
+                android:layout_weight="0.2"
+                android:src="@drawable/ic_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </ImageView>
+            <com.app.yaraan.fontsetting.textview.TextViewChangeMedium
+                android:layout_marginRight="9dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1.8"
+                android:text="محرمیت"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnrTerm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <ImageView
+                android:rotation="180"
+                android:layout_weight="0.2"
+                android:src="@drawable/ic_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <com.app.yaraan.fontsetting.textview.TextViewChangeMedium
+                android:layout_marginRight="9dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1.8"
+                android:text="د کارونې اصول"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <com.app.yaraan.fontsetting.textview.TextViewChangeMedium
+                android:id="@+id/tx_fav"
+                android:layout_marginRight="9dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+
+                android:text="تاسو خوښ کړي"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical">
+
+            <com.app.yaraan.fontsetting.textview.TextViewChangeMedium
+                android:layout_marginRight="9dp"
+                android:id="@+id/tx_signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="اکاونټ جوړول"
+                android:textSize="18sp" />
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical">
+
+            <com.app.yaraan.fontsetting.textview.TextViewChangeMedium
+                android:id="@+id/tx_log"
+                android:layout_marginRight="9dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="اکاونټ نه وتل"
+                android:textSize="18sp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
